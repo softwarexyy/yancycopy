@@ -7,7 +7,11 @@ then open the destination file , and send the buffer to it.
 
 ####   install method    #####
 1. Download the package and extract it;
-2. move to the correct directory and run "sudo make install;
+2. move to the correct directory and run "sudo make install".
+
+####    uninstall method  #####
+run "sudo make uninstall".
 
 
-Then you can use yancycopy as the common command on Ubuntu.
+
+You can use yancycopy as the common command on Ubuntu.
