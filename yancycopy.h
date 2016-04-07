@@ -43,4 +43,5 @@ void yancycp(char *src_path, char *des_path){
         perror("write");
         exit(EXIT_FAILURE);
     }
+    close(fd);
 }
