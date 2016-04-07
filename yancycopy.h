@@ -8,7 +8,7 @@
 // read a file.
 void yancycp(char *src_path, char *des_path){
     // to know the file length
-	struct stat fileinfo;
+    struct stat fileinfo;
 	unsigned long file_len;
 	if (stat(src_path, &fileinfo)<0){
 		perror("stat error!");
